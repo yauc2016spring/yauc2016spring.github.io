@@ -9,17 +9,18 @@ div#subHeader{
 
 div#wrapper{
 	width: auto;
-	padding: 20px;
+	padding: 0;
 	font-family: 'Arial', 'Lucida Grande', 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'ＭＳ Ｐゴシック', Osaka, sans-serif;
-	background: #000;
+	background: #fff;
 	color: #fff;
 	overflow: hidden;
 }
 
 
 div#header{
-	padding: 40px 0;
+	padding: 40px 20px;
 	margin: 180px 0 60px 0;
+	background: #00CED1;
 }
 
 h1{
@@ -41,7 +42,7 @@ ul#gNavi li{
 
 ul#gNavi li a{
 	text-decoration: none;
-	color: #ccc;
+	color: #fff;
 }
 
 ul#gNavi li a:hover{
@@ -66,17 +67,26 @@ div#mainContents div.contentsBlock:after {
 
 div#mainContents div h2{
 	width: 220px;
-	font-size: 16px;
+	font-size: 22px;
 	float: left;
 	padding-top: 10px;
+	padding-left: 10px;
 	padding-bottom: 10px;
-	background: url(../img/bg_dash.gif) no-repeat 0 0;
+/*	background: url(../img/bg_dash.gif) no-repeat 0 0;*/
 	letter-spacing: 0.05em;
+	color:#000;
+}
+
+div#mainContents div h3{
+	color:#000;
+	font-size: 20px;
 }
 
 div#mainContents div.mainBlock{
-	padding-top: 30px;
-	background: url(../img/bg_dash.gif) no-repeat 0 0;
+	padding-top: 20px;
+	padding-left:15px;
+	padding-right:10px;
+/*	background: url(../img/bg_dash.gif) no-repeat 0 0;*/
 	width: auto;
 	float: left;
 }
@@ -92,8 +102,19 @@ div#mainContents div.mainBlock strong.titChapter{
 /* mainBlock */
 div#mainContents div.mainBlock p{
 	line-height: 2.0;
-	color: #fff;
+	color: #000;
+	font-size: 15px;
 }
+
+div#mainContents div.mainBlock table th{
+	font-size: 15px;
+}
+
+div#mainContents div.mainBlock a{
+	color:#0000ff;
+	font-size:16px;
+}
+
 
 div#mainContents div#about{}
 
@@ -101,6 +122,7 @@ div#mainContents div#topics{}
 
 div#topics div.mainBlock table{
 	font-size: 12px;
+	color:#000;
 }
 
 div#topics div.mainBlock table th,
@@ -111,13 +133,13 @@ div#topics div.mainBlock table td{
 
 div#topics div.mainBlock table th{
 	color: #b7aa79;
-	padding-right: 30px;
+	padding-right: 20px;
 }
 div#topics div.mainBlock table td{}
 
 div#topics div.mainBlock table td a{
 	text-decoration: none;
-	color: #fff;
+	color: #000;
 }
 
 div#topics div.mainBlock table td a:hover{
@@ -177,7 +199,7 @@ div#mainContents div#menu ul.firstItem{
 
 div#mainContents div#menu ul li{
 	display: block;
-	padding-bottom: 8px;
+	padding-bottom: 9px;
 }
 
 div#mainContents div#access{}
@@ -195,6 +217,15 @@ div#mainContents div#access dl dd{
 	margin-bottom: 12px;
 	color: #fff;
 }
+
+/*
+div#link div.mainBlock div h2{
+	color:#fff;
+}
+
+div#link div.mainBlock p{
+	color:#fff;
+}*/
 
 div#mainContents div#recruit{}
 
