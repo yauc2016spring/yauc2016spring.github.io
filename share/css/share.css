@@ -132,7 +132,8 @@ div#topics div.mainBlock table td{
 
 
 div#topics div.mainBlock table th{
-	color: #b7aa79;
+	/*color: #b7aa79;*/
+	color: #32CD32;
 	padding-right: 20px;
 }
 div#topics div.mainBlock table td{}
